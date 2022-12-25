@@ -1,0 +1,23 @@
+.create-todo-button {
+    background-color: #2C74B3;
+    box-shadow: 0 5px 25px rgba(44, 116, 179, 0.5);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    position: fixed;
+    height: 64px;
+    width: 64px;
+    bottom: 24px;
+    right: 24px;
+    color: #C69749;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(0);
+    transition: .3s ease;
+}
+
+.create-todo-button:hover {
+    transform: rotate(224deg);
+}

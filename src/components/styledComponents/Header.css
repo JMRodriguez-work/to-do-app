@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    font-size: 2rem;
+    padding-left: .5rem;
+}
+
+.main-title{
+    height: 100%;
+    font-size: 3rem;
+}
+
