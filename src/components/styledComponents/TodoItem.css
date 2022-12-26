@@ -20,6 +20,7 @@
     text-decoration: line-through;
 }
 
+
 .Icon {
     cursor: pointer;
     display: flex;
@@ -31,4 +32,8 @@
 
 .Icon-delete:hover {
     color: #282A3A;
+}
+
+.Icon-check--active {
+    color: #4caf50;
 }
