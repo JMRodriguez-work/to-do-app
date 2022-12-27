@@ -14,9 +14,11 @@ header {
   font-size: 3rem;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   header {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .main-title {
     text-align: center;
