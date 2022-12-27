@@ -29,7 +29,7 @@ function AppUI() {
       <TodoList>
         {error && <p>Error!</p>}
         {/* {loading && <p className="loading">Loading...</p>} */}
-        {loading && <div class="custom-loader"></div>}
+        {loading && <div className="custom-loader"></div>}
         {!loading && !searchedTodos.length && totalTodos >= 1 && (
           <p className="no-match">No TO DO found</p>
         )}
