@@ -7,6 +7,7 @@
   justify-content: center;
   align-items: center;
   box-shadow: 0px 5px 50px rgba(20, 66, 114, 0.5);
+  width: 100%;
 }
 
 .todo-item-p {
@@ -37,3 +38,15 @@
 .Icon-check--active {
     color: #4caf50;
 }
+
+.Icon-check:hover {
+    color: #4caf50;
+}
+
+
+@media (max-width: 500px){
+    .todo-item{
+        max-width: 300px;
+    }
+}
+

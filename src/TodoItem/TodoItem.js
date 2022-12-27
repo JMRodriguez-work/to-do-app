@@ -1,11 +1,7 @@
 import React from "react";
-import "./styledComponents/TodoItem.css";
+import "./TodoItem.css";
 
 function TodoItem(props) {
-
- 
-
-  
 
   return (
     <>
